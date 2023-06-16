@@ -1,4 +1,4 @@
-import Navbar from '@/Components/Navbar'
+import Header from '@/Components/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -16,8 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Navbar/>
+      <body className={inter.className+"overflow-x-hidden"}>
+        <Header/>
         {children}
       </body>
     </html>
