@@ -33,7 +33,7 @@ const Home = () => {
         }
       `}</style>
 
-      <div className="w-[450px] h-[380px] scale-75">
+      <div className="w-[450px] h-[380px] scale-75 lg:scale-100">
         <h3
           className={`${barlowCondensed.className} text-secondary text-[28px]`}
         >
