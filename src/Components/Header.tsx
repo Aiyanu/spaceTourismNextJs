@@ -13,7 +13,7 @@ const Header = () => {
   }
 
   return (
-    <header>
+    <div>
       <Navbar />
       <div
         onClick={() => setIsOpen(!isOpen)}
@@ -24,7 +24,7 @@ const Header = () => {
         <Image src={open} alt="open" />
       </div>
       <Sidebar closeSidebar={closeSidebar} isOpen={isOpen} />
-    </header>
+    </div>
   );
 };
 
